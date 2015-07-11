@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="it.yellowsnow.gifly.Publish.PublishUrl"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/frameLayout">
+        <WebView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/showgif"
+            android:layout_gravity="center" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/progressbar"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hashtags"
+        android:hint="@string/hashtags_hint"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/frameLayout" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/publishurlbutton"
+        android:id="@+id/publishbutton"
+        android:layout_below="@+id/hashtags"
+        android:background="@drawable/buttongreen"
+        android:layout_alignLeft="@+id/frameLayout"
+        android:layout_alignStart="@+id/frameLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="Publish"
+        />
+
+</RelativeLayout>

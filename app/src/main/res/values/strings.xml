@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gifly</string>
+    <string name="gifly">Gifly.com</string>
+    <string name="action_settings">Settings</string>
+    <string name="next">Next</string>
+    <string name="prev">Prev</string>
+    <string name="Start_Over">Start Over</string>
+    <string name="title_activity_post_show">Gifly</string>
+    <string name="search_hint">search an hashtag</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="Add_Gif">Add GIF</string>
+    <string name="title_activity_add__gif">Submit a new Gif</string>
+    <string name="Add_Gif_Url">Enter URL to upload from web</string>
+    <string name="Add_Gif_Hint">ie: http://www.gifly.com/example.gif</string>
+    <string name="Add_Gif_Upload">Upload</string>
+    <string name="Add_Gif_Fotocamera">Record a GIF straight from your device</string>
+    <string name="Add_Gif_Record">Record</string>
+    <string name="Add_Gif_Device">Upload from your device</string>
+    <string name="Add_Gif_Browse">Browse files</string>
+    <string name="title_activity_publish_url">Almost done!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="publishurltitle">Now add some hashtags</string>
+    <string name="publishurlbutton">Publish!</string>
+    <string name="hashtags_hint">Add hashtags, separated by space</string>
+    <string name="title_activity_record">Record</string>
+    <string name="btnCapture">Stop recording</string>
+
+</resources>

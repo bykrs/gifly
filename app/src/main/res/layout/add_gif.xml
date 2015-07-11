@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Add_Gif_Url"
+        android:id="@+id/AddGifUrl"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Add_Gif_Hint"
+        android:layout_below="@+id/AddGifUrl"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/Add_Gif_Hint"
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Add_Gif_Upload"
+        android:id="@+id/publishtitle"
+        android:layout_below="@+id/Add_Gif_Hint"
+        android:background="@drawable/buttonblack"
+        android:textColor="#ffffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:onClick="Test_Url"
+        />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Add_Gif_Fotocamera"
+        android:id="@+id/Add_Gif_Fotocamera"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/publishtitle"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Add_Gif_Record"
+        android:id="@+id/Add_Gif_Record"
+        android:layout_below="@+id/Add_Gif_Fotocamera"
+        android:background="@drawable/buttonred"
+        android:textColor="#ffffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:onClick="Record"
+        />
+
+
+
+
+
+
+    <TextView
+        android:layout_below="@+id/Add_Gif_Record"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Add_Gif_Device"
+        android:id="@+id/Add_Gif_Device"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Add_Gif_Browse"
+        android:id="@+id/Add_Gif_Browse"
+        android:layout_below="@+id/Add_Gif_Device"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/buttongreen"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:onClick="Upload_File"
+
+        />
+
+</RelativeLayout>

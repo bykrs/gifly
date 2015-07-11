@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:visibility="visible"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:background="@drawable/buttonwhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+
+
+    />

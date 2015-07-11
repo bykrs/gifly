@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Record"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+
+    <SurfaceView
+        android:layout_width="240dp"
+        android:layout_height="320dp"
+        android:id="@+id/surface_view"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <VideoView
+        android:layout_width="240dp"
+        android:layout_height="320dp"
+        android:id="@+id/playback"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="fill_parent"
+        android:layout_height="240dp"
+        android:id="@+id/progressbar"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_capture"
+        android:layout_gravity="bottom"
+        android:layout_below="@id/surface_view"
+        android:onClick="onCaptureClick"
+        android:text="@string/btnCapture"
+        android:background="@drawable/buttonred"
+        android:textColor="#ffffffff"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hashtags"
+        android:hint="@string/hashtags_hint"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/playback"
+        android:visibility="invisible"
+        />
+    <Button
+        android:layout_below="@id/hashtags"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Add_Gif_Upload"
+        android:id="@+id/UploadVideo"
+        android:background="@drawable/buttongreen"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:onClick="UploadVideo"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>
